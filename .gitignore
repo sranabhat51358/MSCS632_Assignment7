@@ -1,0 +1,23 @@
+# macOS metadata
+.DS_Store
+._*
+
+# C build artifacts
+c/statistics
+*.o
+*.out
+
+# OCaml build artifacts
+ocaml/statistics
+*.cmi
+*.cmo
+*.cmx
+*.annot
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+
+# Editor/IDE configurations
+.vscode/
+.idea/
